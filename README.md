@@ -11,9 +11,9 @@ pip install pygame
 
 ## How to Run
 
-To run the code, simply run the 'piirtäminen.py' file using Python:
+To run the code, simply run the 'Object_Game.py' file using Python:
 ```
-python piirtäminen.py
+python Object_Game.py
 ```
 
 ## How to Play
