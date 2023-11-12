@@ -34,4 +34,4 @@ Welcome to the Pygame Collision Game! This simple game challenges the player to 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone 
+   https://github.com/whoiszacky/pygame-1001.git
