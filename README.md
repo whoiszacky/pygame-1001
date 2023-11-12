@@ -1,33 +1,37 @@
-# pygame-1001# Object Movement in Pygame
+# Pygame Collision Game
 
-This is a simple Pygame project demonstrating how to create a game object and move it using user input. The object is represented as a rectangle that can be moved in four different directions (up, down, left, and right) using arrow keys.
+Welcome to the Pygame Collision Game! This simple game challenges the player to navigate an object through a field of moving obstacles, avoiding collisions to increase their score.
 
-## Requirements
+## Table of Contents
 
-To run this code, you need to have Python and Pygame installed on your machine. If you don't have Pygame installed, you can install it using pip:
-```
-pip install pygame
-```
+- [Features](#features)
+- [How to Play](#how-to-play)
+- [Installation](#installation)
 
-## How to Run
 
-To run the code, simply run the 'Object_Game.py' file using Python:
-```
-python Object_Game.py
-```
+## Features
+
+- Dynamic obstacle movement with increasing speed over time
+- Collision detection with visual feedback
+- Score tracking
 
 ## How to Play
 
-- Use the up, down, left, and right arrow keys to move the object.
-- The object can move within the boundaries of the screen.
-- The object is represented as a red rectangle on a black background.
+1. Use the arrow keys to control the player character:
+   - UP: Move Up
+   - DOWN: Move Down
+   - LEFT: Move Left
+   - RIGHT: Move Right
 
-## Code Overview
+2. Navigate through the moving obstacles without colliding to increase your score.
 
-- The `GameObject` class represents the game object with its x and y coordinates, velocity, width, and height.
-- The `draw` function is responsible for drawing the object on the screen.
-- The `update` function is responsible for updating the object's position.
-- In the main game loop, we handle user input and update the object's position accordingly.
-- We then draw the object on the screen and update it using `pygame.display.flip()`.
+3. The game speeds up over time, making it more challenging.
 
-## Zakaria
+4. If a collision occurs, the game displays a "Game Over" message for a brief moment before exiting.
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone 
